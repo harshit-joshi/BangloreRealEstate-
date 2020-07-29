@@ -17,3 +17,22 @@ Sklearn for model building
 Jupyter notebook, visual studio code and pycharm as IDE
 Python flask for http server
 HTML/CSS/Javascript for UI
+
+There are 2 sub Folders inside Banglore RealEstate
+1. Data Analysing
+2. Code
+
+Data Analysing contains 4 files
+1. datasets_20710_26737_Bengaluru_House_Data.csv  - This is the file which is downloaded from Kaggle (We run our model on this file to get output)
+2. bhp.ipynb - This is out notebook which we have created for Analysing data we have used Python, Numpy, Pandas , Matplotlib , SKlearn in this
+3. banglore_home_prices_model.pickle - This is the pickle file  which is exported from bhp.ipynb file (converting an object in memory to a byte stream)
+4. columns_json - This is the file which in which we have exported every columns
+
+Code Contains 3 Folders
+1. model - This folder contains the file which we have copied from Data analysing Folder 
+2. server - This contains  server.py (which is used to start server) ,util.py (Which has utilties code) , artifacts (contains pickle and json file)
+3. client - This folder contains front end code this has htl,css,js file
+
+
+
+
